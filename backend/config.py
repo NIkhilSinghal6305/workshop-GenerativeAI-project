@@ -31,7 +31,7 @@ DATABASE_PATH = DATA_DIR / "app.db"
 
 APP_NAME = "AI Creator Engine"
 APP_VERSION = "Teaching Edition"
-HOST = os.getenv("HOST", "127.0.0.1")
+HOST = os.getenv("HOST", "0.0.0.0")
 PORT = int(os.getenv("PORT", "5001"))
 SECRET_KEY = os.getenv("SECRET_KEY", "change-this-local-secret")
 
