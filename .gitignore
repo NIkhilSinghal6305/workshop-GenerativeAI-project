@@ -1,0 +1,33 @@
+# Environments
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+data/
+*.db
+*.sqlite3
+
+# Models
+models/
+*.gguf
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Application specific
+generated/
+
+# OS generated files
+.DS_Store
+Thumbs.db
